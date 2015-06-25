@@ -51,6 +51,9 @@ h4,
 h5,
 h6 {
     font-family: Arial, Helvetica, sans-serif;
+    .date {
+        color: $black;
+    }
 }
 
 .tag {
@@ -69,4 +72,46 @@ h6 {
 
 .button-gray {
     background: $black;
+}
+
+.settings-nav {
+    .active {
+        background: $black;
+        color: $white;
+    }
+}
+
+.admin-submenu ul a {
+    color: $black;
+}
+
+.policy-table {
+    input:checked {
+        +label {
+            color: $white;
+        }
+    }
+    label {
+        color: $black;
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+.admin-common .admin-subtitle {
+    color: $black;
+}
+
+.admin-functionalities .functionality.active {
+    background: $white;
+    border: 1px solid $black;
+}
+
+.admin-membership-table {
+    .avatar .email,
+    .delete {
+        color: $black;
+    }
+
 }
