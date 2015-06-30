@@ -5,6 +5,7 @@
 
 ### Features
 - Ability to create single-line or multi-line custom fields. (thanks to [@artlepool](https://github.com/artlepool))
+- Make burndown chart collapsible at the backlog panel.
 
 ### Misc
 - Lots of small and not so small bugfixes.
