@@ -221,7 +221,7 @@ ProjectModulesDirective = ($repo, $confirm, $loading, projectService) ->
             else
                 $el.find(".videoconference-attributes").addClass("hidden")
                 $scope.project.videoconferences = null
-                $scope.project.videoconferences_salt = ""
+                $scope.project.videoconferences_extra_data = ""
 
         $scope.$watch "project", (project) ->
             if project.videoconferences?
